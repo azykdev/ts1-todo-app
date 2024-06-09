@@ -3,10 +3,30 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <script src="main.js"></script>
-  <title>Document</title>
+  <script src="main.js" defer></script>
+  <link rel="stylesheet" href="style.css">
+  <title>TS TODO</title>
 </head>
 <body>
   
+  <div class="container">
+
+    <h1>TS TODO</h1>
+
+    <button class="delete-all">Delete All</button>
+
+    <form class="todo-form">
+      <input type="text" name="todo" class="todo-input" placeholder="Add Todo..." required />
+      <button type="submit">Add</button>
+    </form>
+
+    <ul class="todo-list">
+      <li class="todo-item">
+        <input type="checkbox" class="todo-checkbox">
+        <span class="todo-text">Todo 1</span>
+        <button class="delete-todo">Delete</button>
+      </li>
+    </ul>
+  </div>
 </body>
 </html>
