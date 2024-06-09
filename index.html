@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <script src="dest/script.js" defer></script>
+  
+  <title>Ts - Todo App</title>
+
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: sans-serif;
+    }
+
+    .wrapper {
+      max-width: 500px;
+      margin: 20px auto;
+      padding: 40px;
+      border: 1px solid #ccc;
+    }
+
+    .todo-list {
+      list-style: none;
+      padding: 0;
+    }
+    
+  </style>
+</head>
+<body>
+  <div class="wrapper">
+    <form id="todo-form">
+      <input type="text" class="todo-input">
+      <button type="submit">Add Todo</button>
+    </form>
+    <ul class="todo-list"></ul>
+  </div>
+</body>
+</html>
